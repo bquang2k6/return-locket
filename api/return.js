@@ -16,12 +16,12 @@ const USER_INFO = {
   vrvZBmMIPIMhIkFEPzj5SzQCGAs2: {
     name: '⋆. 𐙚 ̊" tẹt ',
     username: "h***_cute",
-    avatar: "https://firebasestorage.googleapis.com/v0/b/locket-img/o/users%2FvrvZBmMIPIMhIkFEPzj5SzQCGAs2%2Fpublic%2Fprofile_pic.webp?alt=media",
+    avatar: "https://firebasestorage.googleapis.com:443/v0/b/locket-img/o/users%2FvrvZBmMIPIMhIkFEPzj5SzQCGAs2%2Fpublic%2Fprofile_pic.webp?alt=media&token=fa0203b5-67f8-4737-a8b8-a6f37aaf9ba2",
   },
   cFmSehuJeKh6OVrEVwwcnsannn52: {
     name: "Trần Tr**",
     username: "charlotte1***",
-    avatar: "https://firebasestorage.googleapis.com/v0/b/locket-img/o/users%2FcFmSehuJeKh6OVrEVwwcnsannn52%2Fpublic%2Fprofile_pic.webp?alt=media",
+    avatar: "https://firebasestorage.googleapis.com:443/v0/b/locket-img/o/users%2FcFmSehuJeKh6OVrEVwwcnsannn52%2Fpublic%2Fprofile_pic.webp?alt=media&token=bc9cc1f4-77a4-4c5b-98db-dc46658fb289",
   },
   S2HiUe90Lkg3kOkXMyMThPCqomF2: {
     name: "hi**",
@@ -31,7 +31,7 @@ const USER_INFO = {
   "5iGRlbUao5MCXB92g4mcXzFQ08T2": {
     name: "tao la *** ne",
     username: "camupr**",
-    avatar: "https://firebasestorage.googleapis.com/v0/b/locket-img/o/users%2F5iGRlbUao5MCXB92g4mcXzFQ08T2%2Fpublic%2Fprofile_pic.webp?alt=media",
+    avatar: "https://firebasestorage.googleapis.com:443/v0/b/locket-img/o/users%2F5iGRlbUao5MCXB92g4mcXzFQ08T2%2Fpublic%2Fprofile_pic.webp?alt=media&token=f2613f02-f8c3-41bc-a4da-1c76c835860d",
   },
 };
 
