@@ -89,7 +89,7 @@ app.get("/api/return", (req, res) => {
 
   const topUsers = Object.entries(result.users)
     .sort((a, b) => b[1] - a[1])
-    .slice(0, 6)
+    .slice(0, 5)
     .map(([userId, count]) => ({
       userId,
       count,
