@@ -8,30 +8,30 @@ app.use(cors());
 
 // 🔹 USER INFO
 const USER_INFO = {
-  pmcyI9EI1rPgvImfkwWT1Z1ZsHA2: {
-    name: "Quang Phạm",
-    username: "pwa***",
-    avatar: "https://raw.githubusercontent.com/bquang2k6/gif/refs/heads/master/icon/icon_locket_default.webp",
-  },
-  vrvZBmMIPIMhIkFEPzj5SzQCGAs2: {
-    name: '⋆. 𐙚 ̊" tẹt ',
-    username: "h***_cute",
-    avatar: "https://firebasestorage.googleapis.com:443/v0/b/locket-img/o/users%2FvrvZBmMIPIMhIkFEPzj5SzQCGAs2%2Fpublic%2Fprofile_pic.webp?alt=media&token=fa0203b5-67f8-4737-a8b8-a6f37aaf9ba2",
+  ruIQfoPOtfMRkQi2qWSKq106itj1: {
+    name: "Knguyen Deptrai😈",
+    username: "knguyen_t***",
+    avatar: "https://firebasestorage.googleapis.com:443/v0/b/locket-img/o/users%2FruIQfoPOtfMRkQi2qWSKq106itj1%2Fpublic%2Fprofile_pic.webp?alt=media&token=cd18273f-fad1-4daf-a4d8-1d5caf0875ef",
   },
   cFmSehuJeKh6OVrEVwwcnsannn52: {
-    name: "Trần Tr**",
-    username: "charlotte1***",
-    avatar: "https://firebasestorage.googleapis.com:443/v0/b/locket-img/o/users%2FcFmSehuJeKh6OVrEVwwcnsannn52%2Fpublic%2Fprofile_pic.webp?alt=media&token=bc9cc1f4-77a4-4c5b-98db-dc46658fb289",
+    name: 'Trần Trang',
+    username: "charlott***",
+    avatar: "https://firebasestorage.googleapis.com:443/v0/b/locket-img/o/users%2FcFmSehuJeKh6OVrEVwwcnsannn52%2Fpublic%2Fprofile_pic.webp?alt=media&token=3b5d3a2c-a793-44bd-95fa-8371b5a8e25a",
   },
-  S2HiUe90Lkg3kOkXMyMThPCqomF2: {
-    name: "hi**",
-    username: "hi***",
-    avatar: "https://raw.githubusercontent.com/bquang2k6/gif/refs/heads/master/icon/icon_locket_default.webp",
+  vrvZBmMIPIMhIkFEPzj5SzQCGAs2: {
+    name: 'tẹt ⋆. 𐙚 ̊"',
+    username: "hbich_***",
+    avatar: "https://firebasestorage.googleapis.com:443/v0/b/locket-img/o/users%2FvrvZBmMIPIMhIkFEPzj5SzQCGAs2%2Fpublic%2Fprofile_pic.webp?alt=media&token=1539a874-742b-45c4-a728-0196397e4f51",
   },
-  "5iGRlbUao5MCXB92g4mcXzFQ08T2": {
-    name: "tao la *** ne",
-    username: "camupr**",
-    avatar: "https://firebasestorage.googleapis.com:443/v0/b/locket-img/o/users%2F5iGRlbUao5MCXB92g4mcXzFQ08T2%2Fpublic%2Fprofile_pic.webp?alt=media&token=f2613f02-f8c3-41bc-a4da-1c76c835860d",
+  lejPFDaX7gSvUSkH3r3OFaQxh0g2: {
+    name: "ăn rồi ngủ",
+    username: "duy****",
+    avatar: "https://firebasestorage.googleapis.com:443/v0/b/locket-img/o/users%2FlejPFDaX7gSvUSkH3r3OFaQxh0g2%2Fpublic%2Fprofile_pic.webp?alt=media&token=31e6a9a0-0133-4514-a5bd-5af64624d511",
+  },
+  xIalU4J5SjN07oelI0iiIKBJdQ82: {
+    name: "piii chuộtttt",
+    username: "ngocphuo**",
+    avatar: "https://firebasestorage.googleapis.com:443/v0/b/locket-img/o/users%2FxIalU4J5SjN07oelI0iiIKBJdQ82%2Fpublic%2Fprofile_pic.webp?alt=media&token=921bcce1-142f-40ee-ac90-7c0c36b611ce",
   },
 };
 
@@ -78,7 +78,7 @@ function analyzeLog(logText) {
 
 // API
 app.get("/api/return", (req, res) => {
-  const logPath = path.join(process.cwd(), "logs", "2312-0202.txt");
+  const logPath = path.join(process.cwd(), "logs", "0202-0703.txt");
 
   if (!fs.existsSync(logPath)) {
     return res.status(404).json({ error: "Không tìm thấy file log" });
@@ -89,7 +89,7 @@ app.get("/api/return", (req, res) => {
 
   const topUsers = Object.entries(result.users)
     .sort((a, b) => b[1] - a[1])
-    .slice(0, 5)
+    .slice(0, 6)
     .map(([userId, count]) => ({
       userId,
       count,
